@@ -4,9 +4,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import BarraDeNavegacion01 from './componentes/BarraDeNavegacion01'
 import SobreNosotros01  from './componentes/SobreNosotros01'
 
-
 function App() {
- 
   return (
     <>
       {/* APLICAMOS EL ROUTER BROWSER A TRAVÉS DE LA ETIQUETA Routes y Route */}
@@ -27,5 +25,4 @@ function App() {
     </>
   )
 }
-
 export default App

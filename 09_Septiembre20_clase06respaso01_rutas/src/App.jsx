@@ -11,6 +11,7 @@ function App() {
     <>
       {/* APLICAMOS EL ROUTER BROWSER A TRAVÉS DE LA ETIQUETA Routes y Route */}
       <Routes>
+        {/* <Route path="/"  /> */}
         <Route path="/BarraDeNavegacion" Component={BarraDeNavegacion01}/>
         {/* path es el "alias/nombre" con que quiero que aparezca en la barra de navegación  */}
         {/* component es donde se encuentra desarrollada la page y lo que queremos mostar en la page */}
@@ -34,3 +35,4 @@ function App() {
 }
 
 export default App
+  
